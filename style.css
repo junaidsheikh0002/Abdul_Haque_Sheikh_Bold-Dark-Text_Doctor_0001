@@ -1,0 +1,96 @@
+/* عمومی ترتیب */
+
+body,
+h1,
+p,
+div,
+img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* باڈی اسٹائلنگ */
+
+body {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    background-color: #ffffff;
+    /* سفید پس منظر */
+    color: #000000;
+    /* مکمل سیاہ */
+    line-height: 1.8;
+    direction: rtl;
+    text-align: center;
+}
+
+
+/* کنٹینر اسٹائلنگ */
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #000000;
+    /* مکمل سیاہ سرحد */
+    border-radius: 10px;
+    background-color: #ffffff;
+    /* سفید پس منظر */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ہیڈر */
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+    /* مکمل سیاہ */
+}
+
+
+/* تصویر سیکشن */
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* مواد */
+
+.content p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    /* مکمل سیاہ */
+    margin-bottom: 10px;
+}
+
+
+/* رابطہ معلومات */
+
+.contact-info p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    /* مکمل سیاہ */
+    margin-bottom: 5px;
+}
+
+
+/* فٹر */
+
+footer p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    /* مکمل سیاہ */
+    margin-top: 20px;
+}
